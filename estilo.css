@@ -12,6 +12,15 @@ header > h1 {
 	padding: 9pt;
 }
 
+.bloque header h2 {
+	margin-top: 0pt;
+	margin-bottom: 7pt;
+}
+
+.bloque p, h3 {
+	margin-top: 0pt;
+}
+
 #educacion img {
 	width: 120px;
 	height: 120px;
@@ -23,14 +32,44 @@ header > h1 {
 }
 
 #foto img {
-	width: 150px;
+	width: 135px;
 	height: 150px;
 }
 
-#info {
+span#info {
 	float: right;
 	padding-right: 100pt;
+}
+
+div#info {
+	padding-left: 10pt;
+	padding-bottom: 10pt;
 	display: inline-block;
+}
+
+#habilidades #hab {
+	text-align: center;
+	border: 1pt solid grey;
+	border-radius: 25px;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 7pt;
+	display: inline-block;
+	margin-left: 20pt;
+	margin-right: auto;
+	box-shadow: 2px 2px 5px grey;
+}
+
+#hab #num {
+	font-size: 15px;
+	border: 1pt solid blue;
+	border-radius: 25px;
+	padding: 10pt;
+	display: inline-block;
+	background-color: blue;
+	color: white;
+	margin-right: 5pt;
 }
 
 hr { 
