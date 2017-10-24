@@ -10,8 +10,8 @@
 }
 
 .pelicula img {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 250px;
     display: inline-block;
     margin-left: 10pt;
     margin-right: 10pt;
@@ -26,11 +26,12 @@
 }
 
 #info {
-    width: 450px;
+    width: 400px;
     display: inline-block;
     margin-left: 10pt;
     margin-right: 10pt;
     text-align: justify;
+    font-family: Verdana;
 }
 
 #reparto {
@@ -39,6 +40,8 @@
     margin-right: 10pt;
     padding-top: 0pt;
     margin-top: 0pt;
+    font-family: Verdana;
+    list-style-image: url("https://goo.gl/6hPSSH");
 }
 
 #info h3 {
@@ -47,6 +50,11 @@
 
 #reparto h3 {
     margin-top: 0pt;
+}
+
+.contenedor {
+    margin-top: 0pt;
+    display: inline-block;
 }
 
 /*  */
